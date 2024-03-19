@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Pham Nhut Minh</title>
+    <link rel="stylesheet" href='{% static "css/styles_cv1.css"%}'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-9In1flK33XSsqyD94xy5M3H/hlY5g0G6n6BmkiY3IKp6atxizj31PuC2sPuX1/x7x0DzGh3O4eR5DWNCySZeAA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <img class="avatar" src='{% static "img/avatar.png"%}' alt="Avatar">
+            <h2>Personal Details</h2>
+            <p><i class="material-icons">person</i> Name: Pham Nhut Minh</p>
+            <p><i class="material-icons">location_on</i> Address: Ho Chi Minh City</p>
+            <p><i class="material-icons">phone</i> Phone Number: 0123456789</p>
+            <p><i class="material-icons">email</i> Email: abcde@gmail.com</p>
+            <h2>Interest</h2>
+            <p><i class="material-icons">radio_button_checked</i> Sport</p>
+            <p><i class="material-icons">radio_button_checked</i> Cooking</p>
+            <p><i class="material-icons">radio_button_checked</i> Reading</p>
+            <h2>Language</h2>
+            <p>Vietnamese <span class="star-wrapper">&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
+            <p>English <span class="star-wrapper">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
+            
+            
+        </div>
+        
+        <div class="right-column">
+            <h1>Pham Nhut Minh</h1>
+            <p>My career objective is to consistently strive to achieve the best results through real-world data. I have a strong passion for the field of Data Engineering and aspire to collaborate with large corporations. I am ready to engage in training and mentoring aspiring programmers. Becoming a developer, investing in information technology, and having my own products are my goals.</p>
+            <hr class="separator">
+            <div class="work-history">
+                <h2><i class="material-icons">work_history</i>  Work Experience</h2>
+                <div class="black-box"></div> 
+                <h4>2030 - present:  Data Engineer</h4>
+                <p>
+                    <li>Led the transition process from Oracle to Redshift using Amazon Athena and S3, resulting in significant cost savings and a 16% increase in efficiency.</li>
+                    <li>Designed and implemented a real-time data pipeline to process semi-structured data.</li>
+                    <li>Architected a data pipeline for a new product, quickly scaling from 0 to 125,000 daily active users.</li>
+                </p>
+                <div class="black-box"></div> 
+                <h4>2025 - 2028: Data Engineer Intern</h4>
+                <p>
+                    <li>Established and built basic ETL processes to ingest transactional data and created event streams from a web application with 12,000 daily active users.</li>
+                    <li>Worked with clients to understand business needs and translated them into in-depth analytical reports.</li>
+                    <li>Utilized Spark in Python to control and distribute data processing tasks across streaming data files, resulting in a 68% improvement in data ingestion and processing speed.</li>  
+                </p>
+            <hr class="separator">  
+            <div class="education">
+                <h2><i class="material-icons">school</i>  Education</h2>
+                <div class="black-box"></div> 
+                <h4>2021 - 2025: Data Science (Industrial University of Ho Chi Minh City)</h4>
+                <div class="black-box"></div> 
+                <h4>...</h4>
+            </div>
+            <hr class="separator"> 
+            <div class="skill">
+                <h2><i class="material-icons">mouse</i>  Skill</h2>
+                <h4>Programming Languages</h4>
+                <ul>
+                  <li>Python</li>
+                  <li>Java</li>
+                  <li>R</li>
+                </ul>
+                <h4>Databases</h4>
+                <ul>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Hadoop</li>
+                    <li>Spark</li>
+                </ul>
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Chọn 1 trong 2 CV để xem</h1>
+    <div>
+        <form action="{% url 'page1' %}" method="get">
+            <button type="submit">CV 1</button>
+        </form>
+        <form action="{% url 'page2' %}" method="get">
+            <button type="submit">CV 2</button>
+        </form>
+    </div>
+</body>
+</html>

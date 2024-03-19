@@ -1,0 +1,125 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Pham Nhut Minh</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href='{% static "css/styles_cv2.css"%}'>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src='{% static "img/avatar.png"%}' />
+    </div>
+    <h1>Pham Nhut Minh</h1>
+    <section>
+      <p>My career objective is to consistently strive to achieve the best results through real-world data. I have a strong passion for the field of Data Engineering and aspire to collaborate with large corporations. I am ready to engage in training and mentoring aspiring programmers. Becoming a developer, investing in information technology, and having my own products are my goals.</p>
+    </section>
+  </header>
+
+  <main>
+    <section>
+      <h3>Personal Details</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>Name:</h4>
+        </div>
+        <div class="descrition">
+          <p>Pham Nhut Minh</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Address:</h4>
+        </div>
+        <div class="descrition">
+          <p>Ho Chi Minh City</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Phone Number:</h4>
+        </div>
+        <div class="descrition">
+          <p>0123456789</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Email:</h4>
+        </div>
+        <div class="descrition">
+          <p>abcde@gmail.com</p>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Skills</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>Programming Languages</h4>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>R</li>
+          </ul>
+        </div>
+        <div class='column'>
+          <h4>Databases</h4>
+          <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Hadoop</li>
+            <li>Spark</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Languages</h4>
+          <p>Vietnamese</p>
+          <p>English</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <article>
+        <div class='school'>
+          <span>2021 - 2025:</span> <strong> Data Science (Industrial University of Ho Chi Minh City)</strong>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Experience</h3>
+      <article>
+        <div class='job-title'>
+          <span>2030 - present:</span>  <strong> Position:</strong> Data Engineer
+        </div>
+        <div>
+          <ul class="job-description">
+            <li>Led the transition process from Oracle to Redshift using Amazon Athena and S3, resulting in significant cost savings and a 16% increase in efficiency.</li>
+            <li>Designed and implemented a real-time data pipeline to process semi-structured data.</li>
+            <li>Architected a data pipeline for a new product, quickly scaling from 0 to 125,000 daily active users.</li>
+          </ul>
+        </div>
+      </article>
+      <article>
+        <div class='job-title'>
+          <span>2025 - 2028:</span>  <strong> Position:</strong> Data Engineer Intern
+        </div>
+        <div>
+          <ul class="job-description">
+            <li>Established and built basic ETL processes to ingest transactional data and created event streams from a web application with 12,000 daily active users.</li>
+            <li>Worked with clients to understand business needs and translated them into in-depth analytical reports.</li>
+            <li>Utilized Spark in Python to control and distribute data processing tasks across streaming data files, resulting in a 68% improvement in data ingestion and processing speed.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="{% static 'css/styles_todo.css'%}">
+</head>
+<body>
+
+    <div class="container">
+        <img src="{% static 'img/todo.jpg'%}" alt="To-Do List" class="logo">
+        <input type="text" id="taskInput" placeholder="Thêm công việc">
+        <button onclick="addTask()">Thêm</button>
+        <div class="sticky-notes" id="stickyNotes">
+        </div>
+    </div>
+
+    <script src="{% static 'js/script_todo.js'%}"></script>
+</body>
+</html>
